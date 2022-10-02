@@ -1,0 +1,10 @@
+인덱스 생성,create [unique] index <index_name> on <table_name> (<column(s)>);,1-376
+인덱스 변경,alter index <index name> on <table name> (<column(s)>);,
+인덱스 삭제,drop index <index name>,
+뷰 생성,create view <view name> as <뷰를 통해 보여줄 데이터 조회용(select) 쿼리문>,1-378
+뷰 삭제,"drop view<view name> {restrict | cascade};
+
+restrict:뷰를 다른 곳에서 참조하고 있으면 삭제 취소.
+cascade:뷰를 참조하는 다른 뷰나 제약조건까지 모두 삭제.",
+프로시저 실행,execute (exec),1-390
+프로시저 삭제,drop procedure <프로시저 이름>,
